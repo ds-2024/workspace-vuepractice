@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import MemberLoginView from '../views/MemberLoginView.vue'
-import AfterLoginView from '../views/AfterLoginView.vue'
+import MemberJoinFormView from '../views/MemberJoinFormView.vue'
 import MemberModifyFormView from '../views/MemberModifyFormView.vue'
 
 const routes = [
@@ -11,9 +11,9 @@ const routes = [
     component: MemberLoginView
   },
   {
-    path: '/member/logininfo',
-    name: 'AfterLoginView',
-    component: AfterLoginView
+    path: '/member/join',
+    name: 'MemberJoinFormView',
+    component: MemberJoinFormView
   },
   {
     path: '/member/modify',
