@@ -31,8 +31,8 @@
             <hr />
             <div class="radioGender">
                 <label for="gender" id="gender">성별</label>
-                <input type="radio" name="gender" id="male" value="Male" v-model="gender"/>남성
-                <input type="radio" name="gender" id="female" value="Female" v-model="gender"/>여성
+                <input type="radio" name="gender" id="male" value="Male" v-model="gender">남성
+                <input type="radio" name="gender" id="female" value="Female" v-model="gender">여성
             </div>
             <div class="form-field">
                 <label class="address" for="address">주소</label>
