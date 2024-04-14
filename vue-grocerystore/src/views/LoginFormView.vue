@@ -3,6 +3,7 @@
     <!-- //header -->
     <div class="signupForm">
         <h2>회원가입</h2>
+        <form v-on:submit.prevent="signup" action="">
             <h3>필수정보</h3>
             <hr />
             <div class="form-field">
@@ -21,7 +22,7 @@
             <div class="form-field">
                 <label for="phone">휴대폰번호*</label>
                 <input type="tel" id="phone" v-model="phone" required>
-            </div>     
+            </div>
             <div class="form-field">
                 <label for="email">이메일*</label>
                 <input type="email" id="email" v-model="email" required>
@@ -43,10 +44,11 @@
                 <label for="birthdate">생년월일</label>
                 <input type="date" id="birthdate" v-model="birthdate">
             </div>
-           
-          
-            
-        <button type="submit" class="submitForm">회원가입</button>
+
+
+
+            <button type="submit" class="submitForm">회원가입</button>
+        </form>
     </div>
     <!--<AppFooter />-->
     <!--//footer-->
