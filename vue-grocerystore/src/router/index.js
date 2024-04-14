@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '@/views/LoginView.vue'
 import LoginFormView from '@/views/LoginFormView.vue'
+import LoginScsView from '@/views/LoginScsView.vue'
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: '/loginform',
     name: 'LoginFormView',
     component: LoginFormView
+  },
+  {
+    path: '/loginsuccess',
+    name: 'LoginScsView',
+    component: LoginScsView
   },
   
 ]
