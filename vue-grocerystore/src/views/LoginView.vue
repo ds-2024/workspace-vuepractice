@@ -15,7 +15,7 @@
                     <input type="text" placeholder="아이디">
                     <input type="password" placeholder="비밀번호">
                     <button type="submit" class="login">로그인</button>
-                    <router-link to="/signup" class="signup">회원가입</router-link>
+                    <router-link to="/loginform" class="signup">회원가입</router-link>
                 </form>
             </div>
         </div>
