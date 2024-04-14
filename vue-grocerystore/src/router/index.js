@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import LoginView from '@/views/LoginView.vue'
 import LoginFormView from '@/views/LoginFormView.vue'
 import LoginScsView from '@/views/LoginScsView.vue'
-
+import ModifyFormView from '@/views/ModifyFormView.vue'
 const routes = [
   {
     path: '/login',
@@ -19,7 +19,11 @@ const routes = [
     name: 'LoginScsView',
     component: LoginScsView
   },
-  
+  {
+    path: '/modify',
+    name: 'ModifyFormView',
+    component: ModifyFormView
+  },
 ]
 
 const router = createRouter({
